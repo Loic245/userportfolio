@@ -18,9 +18,9 @@ const Router = () => {
         path="/"
         element={
           <Suspense fallback={<Spinner />}>
-            {/* <Layout> */}
+            <Layout>
               <Accueil />
-            {/* </Layout> */}
+            </Layout>
           </Suspense>
         }
       />
